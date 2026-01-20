@@ -61,3 +61,24 @@ print("Bitwise XOR:", x ^ y)    #5
 print("Bitwise NOT:", ~x)       #-7
 print("Left Shift:", x << 1)    #12
 print("Right Shift:", x >> 1)   #3
+
+
+#Question 01
+# Create a variable named myName and assign your name to it and display your name as follow
+# eg:- My name is Jhon
+myName = 'Nayan'
+print("my name is " + myName)
+
+# Question 02
+# Create a variable named x and assign the value 50 to it and display it as follows
+# eg:- 50 is a number
+x = 50
+print("eg:- " + str(x) + " is a number")
+print(x)
+
+# Question 03
+# Display the sum of 5 + 10, using two variables: x and y
+# eg:- The sum of 5 and 10 is equal to 15
+a =5
+b=10 
+print("the sum of " + str(a) + " and " + str(b) + " is " + str(a+b))
