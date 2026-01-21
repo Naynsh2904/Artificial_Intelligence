@@ -81,3 +81,7 @@ print(type(h))
 print(type(i))
 print(type(j))
 
+n = 8
+m = [1,2,3,6,5,4]
+
+print(n not in m)
