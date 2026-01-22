@@ -83,3 +83,17 @@ print("Smallest number is =" + str(smallest))
 numbers = [45, 2, 89, 15, 7, 23]
 highest = max(numbers)
 print("Highest number is =" + str(highest))
+
+# user_Inputes
+while True:
+  num1 = input("Enter first number: ")
+  num2 = input("Enter second number: ")
+
+  if num1.isdigit() and num2.isdigit():
+    sum = float(num1) + float(num2)
+    print("The sum of {0} and {1} is {2}".format(num1, num2, sum))
+    break
+  else:
+    print("Invalid input! Please enter numeric values.")  
+
+print("Thank you for using the program!")
